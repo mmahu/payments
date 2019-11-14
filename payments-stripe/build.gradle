@@ -1,3 +1,9 @@
+plugins {
+    id 'org.springframework.boot'
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+
 dependencies {
     compile group: 'com.stripe', name: 'stripe-java', version: '15.3.0'
 }
