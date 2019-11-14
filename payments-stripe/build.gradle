@@ -5,5 +5,7 @@ plugins {
 }
 
 dependencies {
+    compile project(':payments-api')
+    implementation group: 'org.springframework', name: 'spring-context'
     compile group: 'com.stripe', name: 'stripe-java', version: '15.3.0'
 }
